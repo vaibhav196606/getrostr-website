@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Account - Rostr</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .logo {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #6200EE;
+            margin-bottom: 10px;
+        }
+        h1 {
+            color: #1a1a1a;
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        .content {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #6200EE;
+            font-size: 1.3rem;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        p {
+            margin-bottom: 15px;
+            color: #444;
+        }
+        ul {
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 10px;
+            color: #444;
+        }
+        .warning-box {
+            background-color: #fff3e0;
+            border-left: 4px solid #ff9800;
+            padding: 15px 20px;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+        .warning-box strong {
+            color: #e65100;
+        }
+        .steps-box {
+            background-color: #e3f2fd;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .steps-box h3 {
+            color: #1565c0;
+            margin-bottom: 15px;
+        }
+        .steps-box ol {
+            margin-left: 20px;
+        }
+        .steps-box li {
+            margin-bottom: 12px;
+        }
+        .email-box {
+            background-color: #e8f5e9;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 25px 0;
+            text-align: center;
+        }
+        .email-box h3 {
+            color: #2e7d32;
+            margin-bottom: 10px;
+        }
+        .email-link {
+            display: inline-block;
+            background-color: #6200EE;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 10px;
+            transition: background-color 0.2s;
+        }
+        .email-link:hover {
+            background-color: #4a00b0;
+        }
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .data-table th, .data-table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .data-table th {
+            background-color: #f5f5f5;
+            color: #333;
+            font-weight: 600;
+        }
+        .data-table tr:hover {
+            background-color: #fafafa;
+        }
+        .retention-note {
+            background-color: #fce4ec;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            font-size: 0.95rem;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        .footer a {
+            color: #6200EE;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">Rostr</div>
+            <h1>Delete Your Account</h1>
+        </div>
+
+        <div class="content">
+            <p>We're sorry to see you go. This page explains how to delete your Rostr account and what happens to your data.</p>
+
+            <div class="warning-box">
+                <strong>⚠️ Important:</strong> Account deletion is permanent and cannot be undone. All your data will be permanently removed from our systems.
+            </div>
+
+            <h2>How to Delete Your Account</h2>
+            
+            <div class="steps-box">
+                <h3>Option 1: Delete from the App</h3>
+                <ol>
+                    <li>Open the <strong>Rostr</strong> app on your device</li>
+                    <li>Go to <strong>Profile</strong> (bottom navigation)</li>
+                    <li>Tap <strong>Settings</strong> (gear icon)</li>
+                    <li>Scroll down and tap <strong>Delete Account</strong></li>
+                    <li>Confirm your decision when prompted</li>
+                </ol>
+            </div>
+
+            <div class="email-box">
+                <h3>Option 2: Request Deletion via Email</h3>
+                <p>If you cannot access the app, email us with your account details:</p>
+                <a href="mailto:hi@getrostr.com?subject=Account%20Deletion%20Request&body=Please%20delete%20my%20Rostr%20account.%0A%0AEmail%20associated%20with%20account%3A%20%0APhone%20number%20(if%20applicable)%3A%20%0AReason%20for%20deletion%20(optional)%3A%20" class="email-link">
+                    📧 Request Account Deletion
+                </a>
+                <p style="margin-top: 15px; font-size: 0.9rem; color: #666;">
+                    We will process your request within 7 business days.
+                </p>
+            </div>
+
+            <h2>What Data Will Be Deleted</h2>
+            <table class="data-table">
+                <tr>
+                    <th>Data Type</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td>Account information (email, name, phone)</td>
+                    <td>Permanently deleted</td>
+                </tr>
+                <tr>
+                    <td>Profile photo</td>
+                    <td>Permanently deleted</td>
+                </tr>
+                <tr>
+                    <td>Availability settings</td>
+                    <td>Permanently deleted</td>
+                </tr>
+                <tr>
+                    <td>Shift assignments</td>
+                    <td>Removed from schedules</td>
+                </tr>
+                <tr>
+                    <td>Shift requests</td>
+                    <td>Permanently deleted</td>
+                </tr>
+                <tr>
+                    <td>Push notification tokens</td>
+                    <td>Permanently deleted</td>
+                </tr>
+                <tr>
+                    <td>App preferences and settings</td>
+                    <td>Permanently deleted</td>
+                </tr>
+            </table>
+
+            <div class="retention-note">
+                <strong>📋 Data Retention Notice:</strong> Some data may be retained for legal and compliance purposes:
+                <ul style="margin-top: 10px; margin-bottom: 0;">
+                    <li><strong>Time clock entries:</strong> May be retained for up to 7 years for payroll/tax compliance</li>
+                    <li><strong>Transaction records:</strong> Subscription payment history retained as required by law</li>
+                </ul>
+                <p style="margin-top: 10px; margin-bottom: 0; font-size: 0.9rem;">
+                    This data is anonymized and cannot be linked back to your identity.
+                </p>
+            </div>
+
+            <h2>Before You Delete</h2>
+            <p>Please consider the following:</p>
+            <ul>
+                <li><strong>Active subscriptions:</strong> Cancel your subscription through Google Play or Apple App Store before deleting your account to avoid continued billing.</li>
+                <li><strong>Team impact:</strong> If you're a manager/admin, transfer ownership to another user first.</li>
+                <li><strong>Export data:</strong> If you need records of your time entries, request an export before deletion.</li>
+            </ul>
+
+            <h2>Need Help?</h2>
+            <p>If you're having issues with the app or have questions before deleting, our support team is here to help:</p>
+            <ul>
+                <li>Email: <a href="mailto:hi@getrostr.com">hi@getrostr.com</a></li>
+            </ul>
+
+            <h2>Reactivation</h2>
+            <p>Once your account is deleted, it cannot be recovered. If you wish to use Rostr again in the future, you will need to create a new account.</p>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2025 Rostr. All rights reserved.</p>
+            <p>
+                <a href="privacy-policy.html">Privacy Policy</a> · 
+                <a href="terms-of-service.html">Terms of Service</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+    "name": "Rostr - Shift Scheduling App",
+    "short_name": "Rostr",
+    "description": "Shift scheduling and time tracking app for small businesses",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#6200EE",
+    "icons": [
+        {
+            "src": "images/logo.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "images/logo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

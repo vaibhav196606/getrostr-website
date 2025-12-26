@@ -1,0 +1,7 @@
+# Robots.txt for getrostr.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://getrostr.com/sitemap.xml
