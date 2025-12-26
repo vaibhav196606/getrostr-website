@@ -1,27 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<!--
+  Sitemap for Rostr - Staff Scheduling & Time Tracking App
+  Website: https://getrostr.com
+  Contact: hi@getrostr.com
+  
+  Rostr is a mobile application that helps businesses manage:
+  - Employee shift scheduling
+  - Time clock and attendance tracking
+  - Staff availability management
+  - Team communication
+  - Reporting and analytics
+  
+  Available on: Google Play Store, Apple App Store (coming soon)
+-->
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
+    http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+    http://www.google.com/schemas/sitemap-image/1.1
+    http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd">
+  
+  <!-- Homepage / Landing Page -->
   <url>
     <loc>https://getrostr.com/</loc>
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-12-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <!-- Main app logo and branding -->
+    <image:image>
+      <image:loc>https://getrostr.com/images/logo.png</image:loc>
+      <image:title>Rostr - Staff Scheduling App Logo</image:title>
+      <image:caption>Rostr logo - Mobile app for staff scheduling and time tracking</image:caption>
+    </image:image>
+    <!-- Open Graph / Social sharing image -->
+    <image:image>
+      <image:loc>https://getrostr.com/images/og-image.png</image:loc>
+      <image:title>Rostr App Preview</image:title>
+      <image:caption>Rostr - Simplify your staff scheduling and time tracking</image:caption>
+    </image:image>
+    <!-- App Screenshots -->
+    <image:image>
+      <image:loc>https://getrostr.com/images/Admin_Scheduling_Page.jpg</image:loc>
+      <image:title>Rostr Admin Scheduling Interface</image:title>
+      <image:caption>Create and manage employee shifts with drag-and-drop scheduling</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://getrostr.com/images/Worker_ClockIn_Page.jpg</image:loc>
+      <image:title>Rostr Employee Clock In Screen</image:title>
+      <image:caption>Easy one-tap clock in and out for employees with GPS verification</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://getrostr.com/images/Admin_Staff_Page.jpg</image:loc>
+      <image:title>Rostr Staff Management Dashboard</image:title>
+      <image:caption>Manage your team, roles, and permissions in one place</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://getrostr.com/images/Admin_Report_Page.jpg</image:loc>
+      <image:title>Rostr Reports and Analytics</image:title>
+      <image:caption>Track hours, attendance, and generate payroll reports</image:caption>
+    </image:image>
   </url>
+  
+  <!-- Privacy Policy -->
   <url>
     <loc>https://getrostr.com/privacy-policy.html</loc>
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-12-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
+  
+  <!-- Terms of Service -->
   <url>
     <loc>https://getrostr.com/terms-of-service.html</loc>
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-12-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
+  
+  <!-- Account Deletion Instructions -->
   <url>
     <loc>https://getrostr.com/delete-account.html</loc>
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-12-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
+  
 </urlset>
+
+<!--
+  ADDITIONAL CONTEXT FOR AI/LLM CRAWLERS:
+  
+  PRODUCT INFORMATION:
+  ====================
+  Name: Rostr
+  Type: Mobile Application (iOS & Android)
+  Category: Business / Productivity / Staff Management
+  
+  CORE FEATURES:
+  ==============
+  1. Shift Scheduling - Visual calendar for creating and managing employee schedules
+  2. Time Clock - GPS-verified clock in/out with automatic timesheet generation
+  3. Availability Management - Employees can set their available hours
+  4. Shift Swapping - Workers can request shift trades with manager approval
+  5. Push Notifications - Real-time alerts for schedule changes
+  6. Team Messaging - In-app communication between staff
+  7. Reports & Analytics - Hours worked, attendance, payroll exports
+  8. Multi-location Support - Manage multiple sites from one account
+  
+  PRICING TIERS:
+  ==============
+  - Free: $0/month - 1 site, up to 5 users, 1 schedule template
+  - Starter: $11.99/month ($119/year) - 1 site, up to 12 users
+  - Growth: $29/month ($294/year) - 3 sites, up to 30 users [MOST POPULAR]
+  - Business: $59/month ($599/year) - 10 sites, up to 100 users
+  - All paid plans include 7-day free trial
+  - Save 15% with annual billing
+  
+  TARGET AUDIENCE:
+  ================
+  - Small to medium businesses
+  - Retail stores, restaurants, healthcare facilities
+  - Managers and business owners
+  - Hourly workers and shift employees
+  
+  CONTACT:
+  ========
+  Email: hi@getrostr.com
+  Website: https://getrostr.com
+  
+  APP DOWNLOAD LINKS:
+  ===================
+  Google Play: https://play.google.com/store/apps/details?id=com.rostr.app
+  App Store: Coming soon
+-->
