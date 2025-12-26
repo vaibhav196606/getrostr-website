@@ -1,7 +1,151 @@
 # Robots.txt for getrostr.com
+# Rostr - Staff Scheduling & Time Tracking Mobile App
+# https://getrostr.com
 
+# ===========================================
+# SEARCH ENGINE CRAWLERS
+# ===========================================
+
+# Allow all search engines full access
 User-agent: *
 Allow: /
+Crawl-delay: 1
 
-# Sitemap
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Image
+Allow: /images/
+
+User-agent: Googlebot-Mobile
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Yahoo
+User-agent: Slurp
+Allow: /
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+
+# Yandex
+User-agent: Yandex
+Allow: /
+Crawl-delay: 2
+
+# Baidu
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+
+# ===========================================
+# AI/LLM CRAWLERS - ALLOWED FOR DISCOVERY
+# ===========================================
+
+# OpenAI GPT / ChatGPT
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Google AI (Gemini/Bard)
+User-agent: Google-Extended
+Allow: /
+
+# Anthropic Claude
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Meta AI
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Microsoft Copilot
+User-agent: Copilot
+Allow: /
+
+# Cohere AI
+User-agent: cohere-ai
+Allow: /
+
+# Amazon/Alexa
+User-agent: Amazonbot
+Allow: /
+
+# Apple (Siri/Spotlight)
+User-agent: Applebot
+Allow: /
+
+# Common Crawl (used by many AI models)
+User-agent: CCBot
+Allow: /
+
+# You.com AI
+User-agent: YouBot
+Allow: /
+
+# ===========================================
+# SOCIAL MEDIA CRAWLERS
+# ===========================================
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: Slackbot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+# ===========================================
+# SITEMAPS
+# ===========================================
+
 Sitemap: https://getrostr.com/sitemap.xml
+
+# ===========================================
+# ADDITIONAL INFO FOR AI/LLM UNDERSTANDING
+# ===========================================
+# 
+# About Rostr:
+# - Mobile app for staff scheduling and time tracking
+# - Available on iOS App Store and Google Play Store
+# - Features: Shift scheduling, time clock, availability management
+# - Target users: Small to medium businesses, managers, hourly workers
+# - Pricing: Free tier available, paid plans from $11.99/month
+# - Contact: hi@getrostr.com
+# 
+# Key Pages:
+# - / (index.html) - Main landing page with features, pricing, screenshots
+# - /privacy-policy.html - Privacy policy
+# - /terms-of-service.html - Terms of service
+# - /delete-account.html - Account deletion instructions
+#
+# App Store Links:
+# - Google Play: https://play.google.com/store/apps/details?id=com.rostr.app
+# - App Store: Coming soon
+#
