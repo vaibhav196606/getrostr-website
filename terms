@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - Rostr</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .logo {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #6200EE;
+            margin-bottom: 10px;
+        }
+        h1 {
+            color: #1a1a1a;
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        .last-updated {
+            color: #666;
+            font-size: 0.9rem;
+        }
+        .content {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #6200EE;
+            font-size: 1.4rem;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #f0e6ff;
+        }
+        h3 {
+            color: #333;
+            font-size: 1.1rem;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        p {
+            margin-bottom: 15px;
+            color: #444;
+        }
+        ul {
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 8px;
+            color: #444;
+        }
+        .highlight {
+            background-color: #fff3e0;
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #ff9800;
+        }
+        .important {
+            background-color: #ffebee;
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #f44336;
+        }
+        .contact-info {
+            background-color: #e8f5e9;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+        .contact-info h3 {
+            color: #2e7d32;
+            margin-top: 0;
+        }
+        a {
+            color: #6200EE;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f0e6ff;
+            color: #6200EE;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">Rostr</div>
+            <h1>Terms of Service</h1>
+            <p class="last-updated">Last Updated: December 18, 2025</p>
+        </div>
+
+        <div class="content">
+            <p>Welcome to Rostr! These Terms of Service ("Terms") govern your use of the Rostr mobile application and related services (collectively, the "Service") provided by Rostr ("we," "us," or "our").</p>
+
+            <div class="highlight">
+                <strong>By using Rostr, you agree to these Terms.</strong> If you do not agree, please do not use our Service.
+            </div>
+
+            <h2>1. Acceptance of Terms</h2>
+            <p>By creating an account, accessing, or using Rostr, you confirm that:</p>
+            <ul>
+                <li>You are at least 16 years of age</li>
+                <li>You have the legal capacity to enter into these Terms</li>
+                <li>You will comply with these Terms and all applicable laws</li>
+                <li>If using on behalf of an organization, you have authority to bind that organization</li>
+            </ul>
+
+            <h2>2. Description of Service</h2>
+            <p>Rostr is a workforce management application that provides:</p>
+            <ul>
+                <li><strong>Shift Scheduling:</strong> Create, manage, and publish work schedules</li>
+                <li><strong>Time Tracking:</strong> Clock in/out functionality with optional location verification</li>
+                <li><strong>Availability Management:</strong> Workers can set their availability preferences</li>
+                <li><strong>Shift Requests:</strong> Request time off, shift swaps, and schedule changes</li>
+                <li><strong>Team Communication:</strong> Notifications and updates about schedules</li>
+                <li><strong>Reporting:</strong> Attendance and payroll summaries</li>
+            </ul>
+
+            <h2>3. Account Registration</h2>
+            <h3>3.1 Account Creation</h3>
+            <p>To use Rostr, you must create an account by providing accurate and complete information. You are responsible for:</p>
+            <ul>
+                <li>Maintaining the confidentiality of your account credentials</li>
+                <li>All activities that occur under your account</li>
+                <li>Notifying us immediately of any unauthorized access</li>
+                <li>Keeping your contact information up to date</li>
+            </ul>
+
+            <h3>3.2 Account Types</h3>
+            <ul>
+                <li><strong>Admin/Manager:</strong> Can create schedules, manage workers, and access reports</li>
+                <li><strong>Worker:</strong> Can view schedules, clock in/out, and submit requests</li>
+            </ul>
+
+            <h2>4. Subscription Plans and Payments</h2>
+            <h3>4.1 Free and Paid Plans</h3>
+            <p>Rostr offers the following subscription tiers:</p>
+            
+            <table>
+                <tr>
+                    <th>Plan</th>
+                    <th>Price</th>
+                    <th>Features</th>
+                </tr>
+                <tr>
+                    <td>Free</td>
+                    <td>$0/month</td>
+                    <td>1 location, 5 users, basic features</td>
+                </tr>
+                <tr>
+                    <td>Starter</td>
+                    <td>$11.99/month</td>
+                    <td>1 location, 12 users, email notifications</td>
+                </tr>
+                <tr>
+                    <td>Growth</td>
+                    <td>$29/month</td>
+                    <td>3 locations, 30 users, location-based clock-in</td>
+                </tr>
+                <tr>
+                    <td>Business</td>
+                    <td>$59/month</td>
+                    <td>10 locations, 100 users, advanced reporting</td>
+                </tr>
+            </table>
+
+            <h3>4.2 Billing</h3>
+            <ul>
+                <li>Subscriptions are billed monthly or annually through Google Play or Apple App Store</li>
+                <li>Yearly subscriptions receive a 15% discount</li>
+                <li>Subscriptions automatically renew unless cancelled</li>
+                <li>Price changes will be notified in advance</li>
+            </ul>
+
+            <h3>4.3 Cancellation and Refunds</h3>
+            <ul>
+                <li>You may cancel your subscription at any time through your app store account</li>
+                <li>Cancellation takes effect at the end of the current billing period</li>
+                <li>Refunds are handled according to app store policies</li>
+                <li>No partial refunds for unused portions of the subscription period</li>
+            </ul>
+
+            <h2>5. Acceptable Use</h2>
+            <p>You agree NOT to:</p>
+            <ul>
+                <li>Violate any laws or regulations</li>
+                <li>Infringe on intellectual property rights</li>
+                <li>Transmit malware, viruses, or harmful code</li>
+                <li>Attempt to gain unauthorized access to our systems</li>
+                <li>Use the Service to harass, abuse, or harm others</li>
+                <li>Create fake accounts or provide false information</li>
+                <li>Use automated systems to access the Service without permission</li>
+                <li>Resell or redistribute the Service without authorization</li>
+                <li>Falsify time records or location data</li>
+                <li>Interfere with the proper functioning of the Service</li>
+            </ul>
+
+            <div class="important">
+                <strong>Violation of these terms may result in immediate account suspension or termination.</strong>
+            </div>
+
+            <h2>6. Intellectual Property</h2>
+            <h3>6.1 Our Property</h3>
+            <p>The Rostr app, including its design, code, features, logos, and content, is owned by us and protected by copyright, trademark, and other intellectual property laws. You may not copy, modify, or distribute our intellectual property without permission.</p>
+
+            <h3>6.2 Your Content</h3>
+            <p>You retain ownership of content you create (schedules, notes, etc.). By using Rostr, you grant us a license to use, store, and display your content as necessary to provide the Service.</p>
+
+            <h2>7. Privacy</h2>
+            <p>Your privacy is important to us. Our collection and use of personal information is governed by our <a href="privacy-policy.html">Privacy Policy</a>, which is incorporated into these Terms.</p>
+
+            <h2>8. Data and Security</h2>
+            <ul>
+                <li>We implement reasonable security measures to protect your data</li>
+                <li>You are responsible for maintaining the security of your account</li>
+                <li>We regularly backup data but are not liable for data loss</li>
+                <li>You should maintain your own backups of important information</li>
+            </ul>
+
+            <h2>9. Third-Party Services</h2>
+            <p>Rostr integrates with third-party services including:</p>
+            <ul>
+                <li>Google Play Store / Apple App Store (payments)</li>
+                <li>RevenueCat (subscription management)</li>
+                <li>Push notification services</li>
+            </ul>
+            <p>Your use of these services is subject to their respective terms and policies.</p>
+
+            <h2>10. Disclaimer of Warranties</h2>
+            <div class="important">
+                <p>THE SERVICE IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO:</p>
+                <ul>
+                    <li>MERCHANTABILITY</li>
+                    <li>FITNESS FOR A PARTICULAR PURPOSE</li>
+                    <li>NON-INFRINGEMENT</li>
+                    <li>ACCURACY OR RELIABILITY</li>
+                    <li>UNINTERRUPTED OR ERROR-FREE OPERATION</li>
+                </ul>
+            </div>
+
+            <h2>11. Limitation of Liability</h2>
+            <p>TO THE MAXIMUM EXTENT PERMITTED BY LAW:</p>
+            <ul>
+                <li>We are not liable for indirect, incidental, special, consequential, or punitive damages</li>
+                <li>Our total liability shall not exceed the amount you paid us in the 12 months preceding the claim</li>
+                <li>We are not responsible for actions taken by employers based on data from Rostr</li>
+                <li>We are not liable for labor disputes, wage claims, or employment decisions</li>
+            </ul>
+
+            <h2>12. Indemnification</h2>
+            <p>You agree to indemnify and hold harmless Rostr and its officers, directors, employees, and agents from any claims, damages, losses, or expenses arising from:</p>
+            <ul>
+                <li>Your use of the Service</li>
+                <li>Your violation of these Terms</li>
+                <li>Your violation of any third-party rights</li>
+                <li>Any content you submit through the Service</li>
+            </ul>
+
+            <h2>13. Termination</h2>
+            <h3>13.1 By You</h3>
+            <p>You may stop using Rostr at any time. To delete your account, contact us at hi@getrostr.com.</p>
+
+            <h3>13.2 By Us</h3>
+            <p>We may suspend or terminate your account if you:</p>
+            <ul>
+                <li>Violate these Terms</li>
+                <li>Engage in fraudulent or illegal activity</li>
+                <li>Fail to pay subscription fees</li>
+                <li>Have not used the Service for an extended period</li>
+            </ul>
+
+            <h3>13.3 Effect of Termination</h3>
+            <p>Upon termination:</p>
+            <ul>
+                <li>Your right to use the Service ends immediately</li>
+                <li>We may delete your data after a reasonable period</li>
+                <li>Sections regarding liability, indemnification, and disputes survive termination</li>
+            </ul>
+
+            <h2>14. Changes to Terms</h2>
+            <p>We may modify these Terms at any time. We will notify you of material changes through:</p>
+            <ul>
+                <li>Email notification</li>
+                <li>In-app notification</li>
+                <li>Posting on our website</li>
+            </ul>
+            <p>Continued use after changes constitutes acceptance of the new Terms.</p>
+
+            <h2>15. Dispute Resolution</h2>
+            <h3>15.1 Informal Resolution</h3>
+            <p>Before filing a formal dispute, you agree to contact us and attempt to resolve the issue informally for at least 30 days.</p>
+
+            <h3>15.2 Governing Law</h3>
+            <p>These Terms are governed by the laws of India, without regard to conflict of law principles.</p>
+
+            <h3>15.3 Arbitration</h3>
+            <p>Any disputes that cannot be resolved informally shall be resolved through binding arbitration, except for claims that may be brought in small claims court.</p>
+
+            <h2>16. General Provisions</h2>
+            <ul>
+                <li><strong>Entire Agreement:</strong> These Terms constitute the entire agreement between you and Rostr</li>
+                <li><strong>Severability:</strong> If any provision is found unenforceable, other provisions remain in effect</li>
+                <li><strong>Waiver:</strong> Failure to enforce a right does not waive that right</li>
+                <li><strong>Assignment:</strong> You may not assign these Terms; we may assign them freely</li>
+                <li><strong>Force Majeure:</strong> We are not liable for delays due to circumstances beyond our control</li>
+            </ul>
+
+            <div class="contact-info">
+                <h3>17. Contact Us</h3>
+                <p>If you have questions about these Terms, please contact us:</p>
+                <p><strong>Email:</strong> <a href="mailto:hi@getrostr.com">hi@getrostr.com</a></p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2025 Rostr. All rights reserved.</p>
+            <p><a href="privacy-policy.html">Privacy Policy</a></p>
+        </div>
+    </div>
+</body>
+</html>
